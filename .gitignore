@@ -1,0 +1,10 @@
+.DS_Store
+redis
+work
+vendor
+*.lck
+8bit-backups
+fp-info-cache
+fp-lib-table
+sym-lib-table
+WiFiCreds.h

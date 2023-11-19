@@ -1,0 +1,13 @@
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./redis:/data
+    command: redis-server --appendonly yes
+  api:
+    build: .
+    ports:
+      - "8102:8102"
+      
